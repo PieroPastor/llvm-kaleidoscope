@@ -3,10 +3,12 @@
 extern double average(double, double);
 extern double addition(double, double);
 extern double addone(double);
+extern double fibi(double);
 
 int main() {
     printf("average of 3.0 and 4.0: %f\n", average(3.0, 4.0));
     printf("addition of 3 and 4: %f\n", addition(3, 4.0));
     printf("addition of 3 and 1: %f\n", addone(3));
+    printf("fibonacci of 20 is: %f\n", fibi(20));
     return 0;
 }
