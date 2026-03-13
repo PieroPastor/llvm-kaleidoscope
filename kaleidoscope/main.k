@@ -9,8 +9,4 @@ def fibi(x)
      c = a + b :
      a = b :
      b = c) :
-<<<<<<< Updated upstream
   b;
-=======
-  b;
->>>>>>> Stashed changes
